@@ -1,0 +1,8 @@
+.yearList {
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50vw;
+    gap: 8.5%;
+    padding-top: 1rem;
+}

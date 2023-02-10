@@ -1,0 +1,30 @@
+.frameworkLine {
+    height: 1px;
+    width: 50vw;
+    border: 5px solid;
+    border-radius: 5px;
+    position: relative;
+}
+
+.circleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    height: 5vh;
+    width: 100%;
+    top: -2.5vh;
+}
+
+.circleStat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    width: 3em;
+    height: 3em;
+    border-radius: 55px;
+    color: #fff;
+    background-color: #212121;
+    margin: 0 1.2rem;
+}
