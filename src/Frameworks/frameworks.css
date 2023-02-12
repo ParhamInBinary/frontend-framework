@@ -1,11 +1,10 @@
-.frameworkList {
-    list-style-type: none;
-}
-
 .framework {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding: 1.5em;
+}
 
+h3 {
+    margin: 0 1rem;
 }
