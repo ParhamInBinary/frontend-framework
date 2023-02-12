@@ -2,12 +2,14 @@ import "./year.css";
 
 export default function Year(props) {
   return (
-    <>
-      <div colSpan={1} className="yearList" data-cy="chart-header">
+    <thead>
+      <tr className="yearRow">
+        <th></th>
         {props.years.map((year) => (
-          <span>{year}</span>
+          <th className="yearBox">{year}</th>
         ))}
-      </div>
-    </>
+        <th></th>
+      </tr>
+    </thead>
   );
 }
