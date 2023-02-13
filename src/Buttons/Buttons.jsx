@@ -13,5 +13,10 @@ export default function Buttons(props) {
 }
 
 function changeState(props) {
-    const circleStat = document.querySelector('.circleStat')
+    const circleStat = document.querySelectorAll('.circle');
+    
+    for( let i = 0; i < circleStat.length; i++) {
+        // circleStat[i].textContent = props.frameworks.surveys
+    }
+    
 }
