@@ -3,11 +3,11 @@ import "./frameworkLine.css";
 export default function FrameworkRow(props) {
   normalizeSurvey(props);
   return (
-    <tr className="frameworkRow">
+    <tr className="frameworkRow" data-cy="chart-row">
       <td style={{color: props.framework.color}}>{props.framework.name}</td>
-      <div className="line" style={{borderColor: props.framework.color}}></div>
+      <div className="line" style={{borderColor: props.framework.color}} data-cy="row-line"></div>
         {props.framework.surveys.map((survey) => (
-          <td className="circle" style={{borderColor: props.framework.color}}>
+          <td className="circle" style={{borderColor: props.framework.color}} data-cy="chart-cell, chart-circle">
               {survey.retention + "%"}
             </td>
         ))}
