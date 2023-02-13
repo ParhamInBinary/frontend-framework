@@ -2,6 +2,15 @@ thead {
     color: #fff;
 }
 
-.yearRow th{
-    padding: 1rem;
+@media screen and (max-width: 768px) {
+    .yearRow th{
+        font-size: medium;
+        padding: .2rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .yearRow th{
+        font-size: xx-small;
+        padding: .3rem;
+    }
 }

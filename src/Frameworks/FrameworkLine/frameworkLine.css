@@ -1,32 +1,119 @@
-.frameworkRow {
-    font-size: larger;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem;
-    position: relative;
+@media screen and (min-width: 769px) {
+    .frameworkRow {
+        font-size: larger;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        position: relative;
+    }
+    
+    .frameworkRow td {
+        margin: 0 .7rem;
+    }
+    
+    .line {
+        border: 3px solid;
+        border-radius: 55px;
+        width: 75%;
+        position: absolute;
+        z-index: -10;
+    }
+    
+    .circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        background-color: #282828;
+        border: 3px solid;
+        border-radius: 55px;
+        width: 3rem;
+        height: 3rem;
+        font-size: medium;
+    }
+    
+    .empty-cell {
+        width: 3rem;
+    }
 }
 
-.frameworkRow td {
-    margin: 0 .7rem;
+@media screen and (max-width: 768px) {
+    .frameworkRow {
+        font-size: medium;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        position: relative;
+    }
+    
+    .frameworkRow td {
+        margin: 0 .4rem;
+    }
+    
+    .line {
+        border: 2px solid;
+        border-radius: 55px;
+        width: 70%;
+        position: absolute;
+        z-index: -10;
+    }
+
+    .circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        background-color: #282828;
+        border: 2px solid;
+        border-radius: 55px;
+        width: 2rem;
+        height: 2rem;
+        font-size: small;
+    }
+    
+    .empty-cell {
+        width: 2rem;
+    }
 }
 
-.line {
-    border: 3px solid;
-    border-radius: 55px;
-    width: 75%;
-    position: absolute;
-}
-.circle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    background-color: #282828;
-    border: 3px solid;
-    border-radius: 55px;
-    width: 3rem;
-    height: 3rem;
-    font-size: medium;
-    z-index: 5;
+@media screen and (max-width: 480px) {
+    .frameworkRow {
+        font-size: small;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        position: relative;
+    }
+    
+    .frameworkRow td {
+        margin: 0 .23rem;
+    }
+    
+    .line {
+        border: 1px solid;
+        border-radius: 55px;
+        width: 68%;
+        position: absolute;
+        z-index: -10;
+    }
+
+    .circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        background-color: #282828;
+        border: 2px solid;
+        border-radius: 55px;
+        width: 1.5rem;
+        height: 1.5rem;
+        font-size: xx-small;
+    }
+    
+    .empty-cell {
+        width: 1.5rem;
+    }
 }
