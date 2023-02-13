@@ -18,20 +18,10 @@ Projektet skall även hostas på Netlify (eller liknande tjänst) och en demolä
 
 ## Installation & Utveckling
 
-1. Skapa ett projekt med önskat ramverk ex med hjälp av: `npm init vite` och följ instruktionerna (ev behöver du ta bort readmefilen först för att sedan lägga tillbaka den).
-2. Skapa `.npmrc` filen och lägg till följande:
-
-```
-@plugga-tech:registry=https://npm.pkg.github.com
-//npm.pkg.github.com/:_authToken=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
-```
-
-3. Lägg till paketet med testerna i ditt projekt `npm i -D @plugga-tech/frontend-framework`.
-4. Kör `npx plugga init` för att kopiera in testerna och nödvändiga filer till rooten av ditt projekt.
-5. Säkerställ att det finns ett `dev` skript i din package.json och att dev-server'n startar på port `5173`.
-6. Kör testerna med kommandot `npx plugga test` direkt via terminalen eller lägg till det som ett test-skript i din package.json fil så du kan köra det med `npm test` istället.
-7. Nu är du redo att skriva koden med ditt valda ramverk för att få gröna tester.
-8. Om det kommer nya uppdateringar till testerna i uppgiften kan du köra `npx plugga update` för att hämta hem det senaste.
+1. Öppna projektet i VS Code.
+2. Kör `npm i` i terminalen.
+3. Kör `npm run dev` och starta browsern med alternativet "o" i ternimalen för att öppna projektet i webbläsaren.
+4. Kör `npm test` i terminalen för att starta cypress och jämföra kraven för uppgiften.
 
 ### Lista av data-cy som ska finnas i koden
 
@@ -50,13 +40,13 @@ Kodprojektet ska zippas ihop och lämnas in på läroplattformen. Rapporten och 
 ### Krav för Godkänt
 
 - [ ] Uppgiften har lämnats in i tid (Kod, Rapport, Presentation).
-- [ ] Rapporten följer uppgiftsbeskrivningen ovan.
-- [ ] Readmefilen har uppdaterats enligt beskrivning ovan.
+- [x] Rapporten följer uppgiftsbeskrivningen ovan.
+- [x] Readmefilen har uppdaterats enligt beskrivning ovan.
 - [ ] Projektet här hostat på Netlify och går att nå via en demolänk i readme filen.
-- [ ] Git och GitHub har använts.
-- [ ] Sidan innehåller en header, footer och main.
-- [ ] Sidan är responsiv.
-- [ ] Sidan visar "retention" informationen som finns i [data filen](./data/index.js) i enlighet med bilden ovan.
+- [x] Git och GitHub har använts.
+- [x] Sidan innehåller en header, footer och main.
+- [x] Sidan är responsiv.
+- [x] Sidan visar "retention" informationen som finns i [data filen](./data/index.js) i enlighet med bilden ovan.
 
 _Gjorda krav ska kryssas för._
 
