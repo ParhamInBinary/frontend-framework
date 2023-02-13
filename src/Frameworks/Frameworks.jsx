@@ -1,5 +1,4 @@
 import FrameworkRow from "./FrameworkLine/FrameworkLine";
-import "./frameworks.css";
 
 export default function Frameworks(props) {
   return (

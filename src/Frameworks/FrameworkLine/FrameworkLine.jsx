@@ -5,7 +5,7 @@ export default function FrameworkRow(props) {
   return (
     <tr className="frameworkRow" data-cy="chart-row">
       <td style={{color: props.framework.color}} data-cy="chart-cell">{props.framework.name}</td>
-      <div className="line" style={{borderColor: props.framework.color}} data-cy="row-line"></div>
+      <div className="line" style={{color: props.framework.color}} data-cy="row-line"></div>
         {props.framework.surveys.map((survey) => (
           <>
             {survey.retention !== "" ? (
