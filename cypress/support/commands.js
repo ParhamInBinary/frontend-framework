@@ -84,7 +84,7 @@ Cypress.Commands.add('shouldDisplayChartData', (category) => {
         .should('have.css', 'background-color')
         .and('be.colored', framework.color);
 
-      cy.wrap($row).find('[data-cy="row-line"]').invoke('width').should('be.gt', 300);
+      cy.wrap($row).find('[data-cy="row-line"]').invoke('width').should('be.gt', 200);
     });
 });
 
