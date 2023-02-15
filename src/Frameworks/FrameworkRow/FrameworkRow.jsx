@@ -1,7 +1,10 @@
-import "./frameworkLine.css";
+import "./frameworkRow.css";
+import { useRouter } from "preact-router";
 
 export default function FrameworkRow(props) {
   normalizeSurvey(props);
+  const [router] = useRouter();
+  
   return (
     <tr className="frameworkRow" data-cy="chart-row">
       <td style={{color: props.framework.color}} data-cy="chart-cell">{props.framework.name}</td>
@@ -11,7 +14,7 @@ export default function FrameworkRow(props) {
             {survey.retention !== "" ? (
               <td data-cy="chart-cell">
                 <div className="circle" style={{borderColor: props.framework.color}} data-cy="chart-circle">
-                  {survey.retention + "%"}
+                  {survey[router.matches.id] + "%"}
                 </div>
               </td>
             ) : (

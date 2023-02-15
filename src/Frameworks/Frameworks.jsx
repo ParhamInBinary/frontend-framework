@@ -1,4 +1,4 @@
-import FrameworkRow from "./FrameworkLine/FrameworkLine";
+import FrameworkRow from "./FrameworkRow/FrameworkRow";
 
 export default function Frameworks(props) {
   return (

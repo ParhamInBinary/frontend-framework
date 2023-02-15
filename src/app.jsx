@@ -1,4 +1,5 @@
 import "./app.css";
+import {Route, Router} from "preact-router"
 import { frameworks } from "../data";
 import Year from "./Year/year";
 import Frameworks from "./Frameworks/frameworks";
@@ -14,7 +15,10 @@ export function App() {
       <main>
         <table>
         <Year years={[2016, 2017, 2018, 2019, 2020, 2021, 2022]} />
-        <Frameworks frameworks={frameworks} />
+        
+        <Router>
+          <Frameworks path="/:id" frameworks={frameworks} />
+        </Router>
         </table>
       </main>
 
