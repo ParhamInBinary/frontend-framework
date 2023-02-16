@@ -7,11 +7,10 @@ import Frameworks from "./Frameworks/frameworks";
 import Year from "./Year/year";
 
 export function App() {
-  // console.log("asd")
   useEffect(() => {
     route("/retention")
-    
-  }, [])
+  })
+
   return (
     <>
       <header>
