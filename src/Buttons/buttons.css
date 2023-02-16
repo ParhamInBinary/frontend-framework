@@ -1,3 +1,11 @@
+.active {
+    background-color: #181818 !important;
+}
+
+.buttonsContainer {
+    margin-top: 1rem;
+}
+
 @media screen and (min-width: 769px) {
     .button {
         padding: 1rem 2rem;
@@ -6,6 +14,7 @@
         margin: 0 1rem;
         border: none;
         font-size: medium;
+        text-decoration: none;
     }
 }
 
@@ -17,6 +26,7 @@
         padding: .7rem 1.2rem;
         margin: 0 .6rem;
         font-size: small;
+        text-decoration: none;
     }
 }
 
@@ -28,6 +38,7 @@
         padding: .5rem 1rem;
         margin: 0 .5rem;
         font-size: x-small;
+        text-decoration: none;
     }
 
 }

@@ -1,11 +1,17 @@
-import "./app.css";
-import {Route, Router} from "preact-router"
+import { route, Router } from "preact-router";
+import { useEffect } from "preact/hooks";
 import { frameworks } from "../data";
-import Year from "./Year/year";
-import Frameworks from "./Frameworks/frameworks";
+import "./app.css";
 import Buttons from "./Buttons/Buttons";
+import Frameworks from "./Frameworks/frameworks";
+import Year from "./Year/year";
 
 export function App() {
+  // console.log("asd")
+  useEffect(() => {
+    route("/retention")
+    
+  }, [])
   return (
     <>
       <header>
@@ -25,7 +31,7 @@ export function App() {
       <footer>
         <Buttons
           frameworks={frameworks}
-          states={["Retention", "Intereset", "Usage", "Awareness"]}
+          states={["Retention", "Interest", "Usage", "Awareness"]}
         />
       </footer>
     </>
