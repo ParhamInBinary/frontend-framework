@@ -52,10 +52,10 @@ _Gjorda krav ska kryssas för._
 
 ### Krav för Väl Godkänt
 
-- [ ] Sidan använder klient-routing för att gå till /retention när användaren besöker startsidan.
-- [ ] Sidan använder klient-routing för att gå till /retention när användaren klickar på länken i footern.
-- [ ] Sidan använder klient-routing för att gå till /interest när användaren klickar på länken i footern.
-- [ ] Sidan använder klient-routing för att gå till /usage när användaren klickar på länken i footern.
-- [ ] Sidan använder klient-routing för att gå till /awareness när användaren klickar på länken i footern.
+- [x] Sidan använder klient-routing för att gå till /retention när användaren besöker startsidan.
+- [x] Sidan använder klient-routing för att gå till /retention när användaren klickar på länken i footern.
+- [x] Sidan använder klient-routing för att gå till /interest när användaren klickar på länken i footern.
+- [x] Sidan använder klient-routing för att gå till /usage när användaren klickar på länken i footern.
+- [x] Sidan använder klient-routing för att gå till /awareness när användaren klickar på länken i footern.
 
 _Gjorda krav ska kryssas för._
