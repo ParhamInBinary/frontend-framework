@@ -12,15 +12,12 @@ Rapporten skall ha ca två A4 sidor brödtext och innehålla en referenslista me
 
 Du ska i din rapport och presentation beskriva ramverket, hur det används, vem som har skapat det, mm. Du ska även diskutera för- och nackdelar för när det är lämpligt att använda sig av det och hur det förhåller sig till React. Både den muntliga och skriftliga inlämning skall innehålla kodexempel från ditt egna kodprojekt med syftet att enklare förmedla innehållet i din text.
 
-Den här readme-filens installationsinstruktioner ska uppdateras så det blir tydligt hur man bygger och kör koden när projeket är korrekt uppsatt med ramverket som du har valt.
-
-Projektet skall även hostas på Netlify (eller liknande tjänst) och en demolänk ska läggas till i README filen.
 
 ## Installation & Utveckling
 
 1. Öppna projektet i VS Code.
 2. Kör `npm i` i terminalen.
-3. Kör `npm run dev` och starta browsern med alternativet "o" i ternimalen för att öppna projektet i webbläsaren.
+3. Kör `npm run dev` och starta browsern med alternativet `"o"` i ternimalen för att öppna projektet i webbläsaren.
 4. Kör `npm test` i terminalen för att starta cypress och jämföra kraven för uppgiften.
 
 ### Lista av data-cy som ska finnas i koden
@@ -39,7 +36,7 @@ Kodprojektet ska zippas ihop och lämnas in på läroplattformen. Rapporten och 
 
 ### Krav för Godkänt
 
-- [ ] Uppgiften har lämnats in i tid (Kod, Rapport, Presentation).
+- [x] Uppgiften har lämnats in i tid (Kod, Rapport, Presentation).
 - [x] Rapporten följer uppgiftsbeskrivningen ovan.
 - [x] Readmefilen har uppdaterats enligt beskrivning ovan.
 - [ ] Projektet här hostat på Netlify och går att nå via en demolänk i readme filen.
